@@ -6,7 +6,7 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/deepaks374/applicationsets-repo
+        repoURL: https://github.com/prateekniet/applicationsets-repo
         revision: HEAD
         directories:
           - path: dev
@@ -19,7 +19,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/deepaks374/applicationsets-repo
+        repoURL: https://github.com/prateekniet/applicationsets-repo
         path: '{{path}}'
         targetRevision: HEAD
       destination:
